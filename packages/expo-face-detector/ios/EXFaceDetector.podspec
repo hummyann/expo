@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # framework generation code (prebuilds) cannot locate them properly, so these are defined explicitly
   # TODO: research why xcodegen fails to detect dependencies of dependencies (resulted .xcodeproj is missing them)
   s.dependency 'GoogleMLKit/FaceDetection', '3.2.0'
-  s.dependency 'MLKitFaceDetection', '3.0.0'
+  s.dependency 'MLKitFaceDetection', '3.2.0'
   s.dependency 'MLKitCommon', '5.0.0'
   s.dependency 'MLKitVision', '4.0.0'
 
